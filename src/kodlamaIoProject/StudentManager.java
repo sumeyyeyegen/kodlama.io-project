@@ -9,4 +9,9 @@ public class StudentManager extends UserManager {
 	public void delete(User user) {
 		System.out.println(user.getFirstName() +" isimli öğrenci silindi.");
 	}
+	
+	@Override 
+	public void update(User user) {
+		System.out.println(user.getFirstName() +" isimli öğrenci güncellendi.");
+	}
 }

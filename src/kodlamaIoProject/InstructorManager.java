@@ -9,4 +9,8 @@ public class InstructorManager extends UserManager {
 	public void delete(User user) {
 		System.out.println(user.getFirstName() + " isimli egitmen silindi.");
 	}
+	@Override
+	public void update(User user) {
+		System.out.println(user.getFirstName() + " isimli egitmen güncellendi.");
+	}
 }
